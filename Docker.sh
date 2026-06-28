@@ -3,3 +3,5 @@ docker run -d -e JUPYTER_PASSWORD="mypassword" \
   -v $(pwd)/work:/workspace/work \
   --gpus all \
   unsloth/unsloth
+-v C:\Users\YourName\work:/workspace/work
+-v $(pwd)/work:/workspace/work
